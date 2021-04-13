@@ -29,4 +29,5 @@ def he_so_tuong_quan(arr, arr1):
         arr_arr1.append(x*y)
     medium_arr_arr1 = sum(arr_arr1)/ len_arr
     return medium_arr_arr1
+
 print("He so tuong quan arr va arr1:", he_so_tuong_quan(arr,arr1)/((varian(arr)*varian(arr1))**0.5))
